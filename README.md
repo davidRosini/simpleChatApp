@@ -1,13 +1,16 @@
 Simple App Chat
+===================
 
-Run App
+Simple websocket chat build with node.js (express) and socket.io.
 
-Download Repo
+# Run App
 
-Install Node.JS
+1) Download code from repository
 
-Install Dependencies -> npm Install
+2) Install [Node.JS](https://nodejs.org/en/) 
 
-Run -> npm start
+3) On node console install Dependencies -> npm install
 
-and browse http://localhost:3000
+4) On console run -> npm start
+
+5) Browse http://localhost:3000
