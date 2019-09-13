@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 
+app.disable('x-powered-by');
+argv.port = 3000;
+
 //set the template engine ejs
 app.set('view engine', 'ejs');
 
@@ -13,7 +16,7 @@ app.get('/', (request, response) => {
 });
 
 //listen on port 3000
-server = app.listen(3000);
+server.listen(argv.port);
 
 const io = require('socket.io') (server);
 
